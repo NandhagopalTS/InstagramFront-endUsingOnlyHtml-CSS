@@ -1,0 +1,89 @@
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: white; 
+}
+a:link{
+    text-decoration: none;
+}
+#main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-bor{
+    width: 350px;
+    height: 401px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containe{
+     padding-top: 1rem;
+    background-color:white;
+    
+}
+.text{ 
+    border-radius: 9px;
+      outline: none;
+  border-color: aqua;
+  border-width: 2px;
+  padding-left: 3px;
+  width: 310px;
+  height: 40px;
+      
+}
+.sec-bor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+}
+.login-btn{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #1877f2;
+    color: #fff;;
+}
+.app{
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+   
+}
+footer {
+    width: 70%;
+    text-align: center;
+    margin-top: 2rem;
+}
+footer a,
+footer span,
+footer select {
+    font-size: 13px;
+    color: #8e8e8e;
+    text-decoration: none;
+    margin: 5px;
+}
+footer select {
+    outline: none;
+    border: none;
+    background-color: #eee;
+}
